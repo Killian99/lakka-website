@@ -1,0 +1,136 @@
+@charset "utf-8";
+/*css du site Lakka*/
+/*auteur : Jean-André Santoni, Morgane, Zacharie Juillard*/
+
+/* -------------------- général -------------------- */
+
+body {
+margin: 0px;
+font-family: 'Asap', sans-serif;
+}
+
+.clear {
+clear: both;
+}
+
+.clearer:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* -------------------- banniére -------------------- */
+
+header {
+color: white;
+background-color: #1ABC9C;
+}
+
+#menubar {
+height: 60px;
+background-color: #354B60;
+
+}
+
+h1 {
+display: inline-block;
+width: 100px;
+
+margin: 0px;
+/*margin-left: 20px;*/
+font-size: 30px;
+}
+
+h1 img {
+height: 60px;
+}
+
+header h2 {
+padding-top: 20px;
+font-size: 60px;
+margin-bottom: 0;
+}
+
+header a.getlakka {
+background-color: #354B60;
+color: white;
+padding: 15px;
+display: inline-block;
+margin-top: 10px;
+font-weight: bold;
+text-decoration: none;
+}
+
+header .subtitle {
+font-size: 25px;
+}
+
+header nav {
+float: right;
+}
+
+header nav ul {
+margin: 0px;
+padding: 0px;
+}
+
+header nav li {
+display: inline-block;
+line-height: 60px;
+
+/*float: right;*/
+}
+
+header nav li a {
+color: white;
+text-decoration: none;
+margin-right: 20px;
+}
+
+.container {
+width: 1280px;
+margin: auto;
+}
+
+.column {
+float: left;
+width: 50%;
+}
+
+.tv {
+float: right;
+}
+
+header aside {
+padding-top: 200px;
+}
+
+/* -------------------- menu -------------------- */
+
+/* -------------------- contenu -------------------- */
+
+/* -------------------- pied de page -------------------- */
+
+@media screen and (width: 768px;) {
+.container {
+width: 708px;
+}
+.tv {
+width: 300px;
+}
+header h2 {
+padding-top: 10px;
+font-size: 30px;
+}
+
+header a.getlakka {
+padding: 7px;
+margin-top: 5px;
+}
+
+header .subtitle {
+font-size: 12px;
+}
+}
