@@ -37,7 +37,7 @@
 {
 	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']))
 	{
-		$to = 'lakka+alonso.morgane@gmail.com';
+		$to = 'alonso.morgane@gmail.com,jean.andre.santoni@gmail.com';
 		$subject = $_POST['subject'];
 		
 		$message = $_POST['message'];
