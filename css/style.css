@@ -179,6 +179,78 @@ section#about article p {
 color: #7f8c8d;
 }
 
+#contact{
+display: block;
+margin: auto auto;
+margin-top: 20px;
+padding-top: 10px;
+width:  1000px;
+height: 650px;
+}
+
+#contact #left{
+  display: block;
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+
+#contact #left #icon{
+  font-size: 150px;
+}
+
+#contact #left #title{
+  font-size: 20px;
+}
+
+#contact #right{
+  display: block;
+  float: left;
+  width: 700px;
+}
+
+#contact .form-input{
+  width: 560px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#bdc3c7;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  margin: 15px; 
+}
+
+#contact input[type="submit"]{
+  width: 585px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#bdc3c7;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px; 
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+}
+
+#contact input[type="text"]{
+  width: 540px;
+  background-color: white;
+  border: none;
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+}
+
+#contact textarea{
+  width: 540px;
+  background-color: white;
+  border: none;
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+  resize:none;
+}
+
 /* -------------------- footer -------------------- */
 
 /* -------------------- media queries -------------------- */

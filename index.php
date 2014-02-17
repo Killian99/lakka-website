@@ -29,18 +29,7 @@
  
  <body>
   <header>
-   <div id="menubar">
-     <h1><img src="images/lakka-logo.png" alt="Lakka's logo, represent a berry : the cloudberry" /></h1>
-
-    <nav>
-     <ul>
-      <li><a href="">News</a></li>
-      <li><a href="">Documentation</a></li>
-      <li><a href="">Support</a></li>
-      <li><a href="">Contact</a></li>
-     </ul>
-    </nav>
-   </div>
+      <?php include("includes/menu.php"); ?>
 
    <aside class="clearer container">
     <div class="column">
