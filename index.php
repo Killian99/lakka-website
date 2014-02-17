@@ -35,7 +35,7 @@
     <div class="column">
      <h2>The DIY retro emulation&nbsp;console</h2>
      <p class="subtitle">Lakka is a lightweight Linux distribution that transforms a credit card sized computer into a full blown emulation console.</p>
-     <a class="getlakka" href="#">Get Lakka</a>
+     <a class="getlakka" href="https://github.com/Niouby/Lakka">Get Lakka</a>
     </div>
     <div class="tv">
       <video src="videos/menu.ogv" preload="auto" autoplay="true" loop="true"></video>
