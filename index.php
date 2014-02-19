@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="author" content="Jean-André Santoni, Morgane Alonso, Zacharie Juillard" />
   <meta name="keywords" content="" />
-  <meta name="description" content="Lakka is a lightweight Linux distribution that transform a credit card sized computer called Raspberry Pi into a full blown emulation console." />
+  <meta name="description" content="Lakka is a lightweight Linux distribution that transforms a credit card sized computer called Raspberry Pi into a full blown emulation console." />
   <meta name="robots" content="index,follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -34,8 +34,8 @@
    <aside class="clearer container">
     <div class="column">
      <h2>The DIY retro emulation&nbsp;console</h2>
-     <p class="subtitle">Lakka is a lightweight Linux distribution that transform a credit card sized computer into a full blown emulation console.</p>
-     <a class="getlakka" href="#">Get Lakka</a>
+     <p class="subtitle">Lakka is a lightweight Linux distribution that transforms a credit card sized computer into a full blown emulation console.</p>
+     <a class="getlakka" href="https://github.com/Niouby/Lakka">Get Lakka</a>
     </div>
     <div class="tv">
       <video src="videos/menu.ogv" preload="auto" autoplay="true" loop="true"></video>
