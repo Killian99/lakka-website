@@ -66,21 +66,21 @@ header .subtitle {
 font-size: 35px;
 }
 
-header nav {
+#menubar nav {
 float: right;
 }
 
-header nav ul {
+#menubar nav ul {
 margin: 0px;
 padding: 0px;
 }
 
-header nav li {
+#menubar nav li {
 display: inline-block;
 line-height: 60px;
 }
 
-header nav li a {
+#menubar nav li a {
 color: white;
 text-decoration: none;
 padding: 0 20px;
