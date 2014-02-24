@@ -6,7 +6,7 @@
    <a class="getlakka" href="https://github.com/Niouby/Lakka">Get Lakka</a>
   </div>
   <div class="tv">
-    <video src="videos/menu.ogv" preload="auto" autoplay="true" loop="true"></video>
+    <video src="videos/menu.ogv" poster="images/thumb.png" preload="auto" autoplay="true" loop="true"></video>
   </div>
  </aside>
 </header>
