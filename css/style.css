@@ -255,7 +255,7 @@ section#about article p {
 /* -------------------- media queries -------------------- */
 /* ---------- iPad portrait ---------- */
 
-@media ony screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   .container {
     width: 668px;
   }
