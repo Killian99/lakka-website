@@ -27,7 +27,12 @@
   
 </head>
  
-<body>
+<?php
+  $page = isset($_GET['page']) ? $_GET['page'] : "home.php";
+  $class = str_replace(".php", "", $page);
+?>
+
+<body class="<?php echo $class;?>">
   <div id="menubar">
     <h1><a href="/"><img src="images/lakka-logo.png" alt="Lakka's logo, represent a berry : the cloudberry" /></a></h1>
     <nav>
@@ -41,10 +46,9 @@
   </div>
 
   <?php
-    $page = isset($_GET['page']) ? $_GET['page'] : "home.php";
     include($page);
   ?>
 
-  <footer></footer>
+  <footer><a href="https://plus.google.com/107706338167528501421" rel="publisher">Google+</a></footer>
 </body>
 </html>

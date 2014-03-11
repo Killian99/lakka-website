@@ -178,78 +178,66 @@ section#about article p {
   color: #7f8c8d;
 }
 
+html {
+  height: 100%;
+}
+
+.contact {
+  background-color: #3498db;
+  background-image: url("../images/form_background.png");
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  height: 100%;
+}
+
 #contact{
-  display: block;
-  margin: auto auto;
-  margin-top: 20px;
-  padding-top: 10px;
-  width:  1000px;
-  height: 650px;
+  margin-top: 60px;
 }
 
-#contact #left{
-  display: block;
+#contact #left {
   float: left;
-  width: 300px;
-  text-align: center;
-}
-
-#contact #left #icon{
-  font-size: 150px;
-}
-
-#contact #left #title{
-  font-size: 20px;
-}
-
-#contact #right{
-  display: block;
-  float: left;
-  width: 700px;
-}
-
-#contact .form-input{
-  width: 560px;
-  border-width:1px;
-  border-style:solid;
-  border-color:#bdc3c7;
-  background-color: white;
+  width: 540px;
+  background-color: #ecf0f1;
   border-radius: 10px;
+}
+
+#contact #right {
+  float: right;
+}
+
+#contact textarea, #contact input {
+  display: block;
+  outline: none;
+  width: 476px;
   padding: 10px;
-  padding-left: 15px;
-  margin: 15px; 
+  margin: 20px;
+  background-color: white;
+  border-width:2px;
+  border-style:solid;
+  border-radius: 10px;
+  border-color:white;
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+  resize: none;
+  transition: border-color 0.5s;
 }
 
 #contact input[type="submit"]{
-  width: 585px;
-  border-width:1px;
-  border-style:solid;
-  border-color:#bdc3c7;
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 15px; 
-  font-family: 'Asap', sans-serif;
-  font-size: 20px;
+  width: 500px;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: white;
+  transition: background-color 0.5s;
 }
 
-#contact input[type="text"]{
-  width: 540px;
-  background-color: white;
-  border: none;
-  font-family: 'Asap', sans-serif;
-  font-size: 20px;
+#contact textarea:focus, #contact input:focus {
+  border-color: #1abc9c;
 }
 
-#contact textarea{
-  width: 540px;
-  background-color: white;
-  border: none;
-  font-family: 'Asap', sans-serif;
-  font-size: 20px;
-  resize:none;
+#contact input[type="submit"]:hover {
+  background-color: #48c9b0;
+  border-color: #48c9b0;
 }
-
 /* -------------------- footer -------------------- */
 
 /* -------------------- media queries -------------------- */
