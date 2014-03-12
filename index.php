@@ -49,6 +49,5 @@
     include($page);
   ?>
 
-  <footer><a href="https://plus.google.com/107706338167528501421" rel="publisher">Google+</a></footer>
 </body>
 </html>

@@ -7,7 +7,7 @@
 body {
   margin: 0px;
   font-family: 'Asap', sans-serif;
-  background-color:  #ecf0f1
+  background-color: #ecf0f1;
 }
 
 .clearer:after{
@@ -57,6 +57,7 @@ header a.getlakka {
   font-weight: bold;
   text-decoration: none;
   font-size: 25px;
+  border-radius: 4px;
 }
 
 header .subtitle {
@@ -178,43 +179,43 @@ section#about article p {
   color: #7f8c8d;
 }
 
-html {
-  height: 100%;
-}
-
-.contact {
+#clouds {
   background-color: #3498db;
   background-image: url("../images/form_background.png");
   background-repeat: repeat-x;
   background-position: 0 100%;
+  background-size: 960px 220px;
   height: 100%;
 }
 
 #contact{
-  margin-top: 60px;
+  padding-top: 60px;
+  background-image: url("../images/form_paperplane2.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  background-origin: content-box;
 }
 
-#contact #left {
+#contact form {
+  display: block;
   float: left;
   width: 540px;
   background-color: #ecf0f1;
   border-radius: 10px;
 }
 
-#contact #right {
-  float: right;
-}
-
 #contact textarea, #contact input {
+  -webkit-appearance: none;
   display: block;
   outline: none;
   width: 476px;
   padding: 10px;
   margin: 20px;
   background-color: white;
-  border-width:2px;
-  border-style:solid;
-  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
   border-color:white;
   font-family: 'Asap', sans-serif;
   font-size: 20px;
