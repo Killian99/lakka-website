@@ -4,14 +4,19 @@
 
 /* -------------------- general -------------------- */
 
+html {
+  min-height: 100%;
+}
+
 body {
-  margin: 0px;
+  margin: 0;
   font-family: 'Asap', sans-serif;
   background-color: #ecf0f1;
+  min-height: 100%;
 }
 
 .clearer:after{
-  content: ".";
+  content: "";
   display: block;
   height: 0;
   clear: both;
@@ -32,7 +37,7 @@ header {
 
 h1 {
   display: inline-block;
-  width: 100px;
+  width: 132px;
   margin: 0px;
   height: 60px;
   font-size: 30px;
@@ -239,6 +244,137 @@ section#about article p {
   background-color: #48c9b0;
   border-color: #48c9b0;
 }
+
+/* get lakka */
+
+body.getlakka .container {
+  color: #2c3e50;
+}
+
+body.getlakka h2 {
+  font-size: 40px;
+}
+body.getlakka h3 {
+  font-size: 30px;
+}
+
+body.getlakka img {
+  max-width: 100%;
+}
+
+.platforms {
+  width: 1260px;
+  padding: 0;
+  margin: 15px -15px;
+}
+
+.platforms>li {
+  width: 280px;
+  display: block;
+  float: left;
+  background: white;
+  margin: 15px;
+}
+
+.platforms li a {
+  display: block;
+  text-decoration: none;
+  color: #2c3e50;
+  outline: 1px solid #bdc3c7;
+}
+.platforms li a:hover {
+  outline: 3px solid #1abc9c;
+}
+
+.platforms>li img {
+  width: 100%;
+}
+
+.platforms>li>a>h3, .platforms>li>a>p {
+  padding: 0 20px;
+}
+
+.platforms .price {
+  color: #7f8c8d;
+  float: right;
+}
+
+ul.platforms ul.supported-systems {
+  padding: 0;
+  background: #bdc3c7;
+}
+
+ul.platforms ul.supported-systems li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.platforms ul.supported-systems img {
+  width: 32px;
+  height: 32px;
+  margin: 3px;
+}
+
+p.dl {
+  text-align: center;
+}
+
+p.dl a {
+  background-color: #1abc9c;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 10px auto;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+p.dl a span.details {
+  display: block;
+  font-size: small;
+}
+
+nav.getlakka {
+  background: #bdc3c7 no-repeat 50%;
+}
+
+nav.getlakka.step1 { background-image: url("../images/step1.png"); }
+nav.getlakka.step2 { background-image: url("../images/step2.png"); }
+nav.getlakka.step3 { background-image: url("../images/step3.png"); }
+nav.getlakka.step4 { background-image: url("../images/step4.png"); }
+nav.getlakka.step5 { background-image: url("../images/step5.png"); }
+nav.getlakka.step6 { background-image: url("../images/step6.png"); }
+
+a.previous {
+  float: left;
+}
+
+a.next {
+  float: right;
+}
+
+a.next, a.previous {
+  background-color: #1abc9c;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 10px auto;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a.next.disabled, a.previous.disabled {
+  background-color: #7f8c8d;
+  cursor: default;
+}
+
+code pre {
+  color: #7f8c8d;
+}
+
 /* -------------------- footer -------------------- */
 
 /* -------------------- media queries -------------------- */
@@ -305,6 +441,18 @@ section#about article p {
     margin: 15px 0;
     font-size: 25px;
   }
+
+  nav.getlakka {
+    background-size: 25%;
+  }
+
+  .platforms {
+    width: 698px;
+  }
+
+  .platforms>li {
+    width: 318px;
+  }
 }
 
 /* ---------- iPad landscape ---------- */
@@ -357,5 +505,17 @@ section#about article p {
   
   section#about article div {
     width: 340px;
+  }
+
+  nav.getlakka {
+    background-size: 50%;
+  }
+
+  .platforms {
+    width: 954px;
+  }
+
+  .platforms>li {
+    width: 288px;
   }
 }
