@@ -14,7 +14,7 @@
     {
       if (spamcheck($_POST["email"])) 
       {
-        $to = 'alonso.morgane@gmail.com,jean.andre.santoni@gmail.com';
+        $to = 'contact@lakka.tv';
         $subject = $_POST['subject'];
         $message = $_POST['message'];
         $headers = 'From : '.$_POST['name'].' <'.$_POST['email'].'>';
