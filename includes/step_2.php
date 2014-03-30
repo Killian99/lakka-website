@@ -11,36 +11,36 @@
 	<li class="x86_64 disabled"><a href="">
 		<img src="images/nuc.jpg" />
 		<h3>PC</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 	<li class="atv disabled"><a href="">
 		<img src="images/atv.jpg" />
 		<h3>Apple TV</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 	<li class="cuboxi disabled"><a href="">
 		<img src="images/cuboxi.png" />
 		<h3>Cubox-i</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 	<li class="cubie disabled"><a href="">
 		<img src="images/cubie1.jpg" />
 		<h3>Cubieboard</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 	<li class="cubie disabled"><a href="">
 		<img src="images/cubie2.jpg" />
 		<h3>Cubieboard 2</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 	<li class="cubie disabled"><a href="">
 		<img src="images/cubie3.png" />
 		<h3>Cubietruck</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 	<li class="radxa disabled"><a href="">
 		<img src="images/radxa_rock.png" />
 		<h3>Radxa</h3>
-		<p>Comming soon</p>
+		<p>Coming soon</p>
 	</a></li>
 </ul>
