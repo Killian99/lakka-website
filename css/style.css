@@ -23,6 +23,11 @@ body {
   visibility: hidden;
 }
 
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
 /* -------------------- banner -------------------- */
 
 header {
