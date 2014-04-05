@@ -5,7 +5,7 @@
 
 <?php
 	if ($_GET['platform'] == "rpi") {
-		echo "<p class=\"dl\"><a href=\"https://github.com/Niouby/Lakka/releases/download/2014-03-10/Lakka-RPi-Lakka.arm-devel-20140310093345-r17679-g0a5d263.img.gz\">Download Lakka <span class=\"details\">for Raspberry Pi ~ 85MB</span></a></p>";
+		echo "<p class=\"dl\"><a href=\"https://github.com/lakkatv/Lakka/releases/download/2014-03-10/Lakka-RPi-Lakka.arm-devel-20140310093345-r17679-g0a5d263.img.gz\">Download Lakka <span class=\"details\">for Raspberry Pi ~ 85MB</span></a></p>";
 	} else {
 		echo "<p>Sorry, the platform you choose is not supported yet.</p>";
 	}
