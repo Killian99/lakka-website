@@ -41,7 +41,7 @@
     <i class="fa fa-github-alt"></i>
     <div>
       <h3>Open source</h3>
-      <p>Our code is free as in freedom and hosted on <a href="https://github.com/lakkatv/Lakka">Github</a>. We accept external contributions, and we do our best to integrate our own patches into upstream projects.</p>
+      <p>Our project is free as in freedom and hosted on <a href="https://github.com/lakkatv/Lakka">Github</a>. We accept external contributions, and we do our best to integrate our own patches into upstream projects.</p>
     </div>
   </article>
 </section>
