@@ -1,3 +1,5 @@
+<h2>Install Lakka to the SD card</h2>
+
 <h3>Determine your SD card drive</h3>
 
 <p>First, you need to know wich drive is your SD card.</p>

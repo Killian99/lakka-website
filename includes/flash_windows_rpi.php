@@ -1,3 +1,5 @@
+<h2>Install Lakka to the SD card</h2>
+
 <h3>Download Windows image flasher utility</h3>
 
 <p>On Windows, you will need a graphical tool to flash Lakka to your SD card.</p>

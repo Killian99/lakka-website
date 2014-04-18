@@ -1,20 +1,20 @@
 <h3>Adding a game using network share</h3>
 
-<p>Your Raspberry Pi and your Computer must be connected on the same Network. Please use Ethernet wires for the Raspberry, as we don't support WiFi yet.</p>
+<p>Your Lakka Box and your Computer must be connected on the same Network. Please use an Ethernet wire for the Lakka Box, as we don't support WiFi yet.</p>
 
 <p>Open your File Browser.</p>
 
 <p>In the left column, you should see a <em>Network</em> icon:</p>
 
-<p><img src="images/linuxsamba1.png" /></p>
+<p><img src="images/winsamba1.png" /></p>
 
 <p>Unfold this Network icon, and see if <em>Lakka</em> shows up.</p>
 
 <p>If Lakka is there, clicking on it will lead you to a list of folders:</p>
 
-<p><img src="images/linuxsamba2.png" /></p>
+<p><img src="images/winsamba2.png" /></p>
 
-<p>Copy your games under the <em>roms</em> folder. This step can take some time, as the games are transfered to the Raspberry Pi through your local network.</p>
+<p>Copy your games under the <em>roms</em> folder. This step can take some time, as the games are transfered to the Lakka Box through your local network.</p>
 
 <h3>Launching a game</h3>
 
