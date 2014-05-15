@@ -8,10 +8,10 @@
 		<h3>Raspberry Pi</h3>
 		<p>Stable</p>
 	</a></li>
-	<li class="x86_64 disabled"><a href="">
+	<li class="x86_64"><a href="/getlakka?step=3&amp;os=<?php echo $_GET['os']; ?>&amp;platform=pc">
 		<img src="images/nuc.jpg" />
 		<h3>PC</h3>
-		<p>Coming soon</p>
+		<p>Testing</p>
 	</a></li>
 	<li class="atv disabled"><a href="">
 		<img src="images/atv.jpg" />
